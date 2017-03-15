@@ -17,4 +17,4 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-streaming" % "1.6.2"
 )
 
-unmanagedJars in Runtime += file("lib/jpcap.zip")
+unmanagedJars in Runtime += file("lib/jpcap.jar")
